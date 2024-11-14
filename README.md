@@ -13,4 +13,7 @@ This project aims to
 - https://www.w3resource.com/sql-exercises/adventureworks: used this website for proactice questions
 
 ### SQL Queries
-From the HumanResources.Employee table write a query in SQL to retrieve all rows and columns from the employee table in the Adventureworks database. Sort the result set in ascending order on jobtitle.
+1. From the HumanResources.Employee table write a query in SQL to retrieve all rows and columns from the employee table in the Adventureworks database. Sort the result set in ascending order on jobtitle.
+code: Select *
+      From HumanResources.Employee 
+      Order by jobtitle asc;
